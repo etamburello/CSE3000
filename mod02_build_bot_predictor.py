@@ -7,7 +7,7 @@ seed = 314
 
 def train_model(X, y, seed=seed):
     """
-    Build a GBM on given data
+    Build a GBM on given data.
     """
     model = GradientBoostingClassifier(
         learning_rate=0.1,
